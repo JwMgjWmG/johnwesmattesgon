@@ -1,0 +1,85 @@
+body{
+    padding: 0 0;
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-image: linear-gradient(90deg, chocolate, darksalmon 25%,coral 100%);
+    backdrop-filter: blur(100px) bloom(2%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header img{
+    width: 225px;
+    height: 225px;
+    border-radius: 50%;
+    margin: 20px;
+}
+footer img{
+    width: 100px;
+    height: 100px;
+}
+.glass_send_message footer{
+    display: flex;
+    justify-content: center;
+}
+.glass_send_message footer a{
+    margin: 2%;
+    text-align: center;
+}
+.glass_send_message footer p{
+    margin-top: 2px;
+    color: black;
+}
+.center{
+    text-align: center;
+}
+.container{
+    display: flexbox;
+    justify-content: center;
+}
+h1{
+    text-align: center;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.glass_send_message h2{
+    text-align: center;
+}
+h3{
+    text-decoration: underline;
+    color: black;
+    text-shadow: 2px, 2px, 3px black;
+}
+p{
+    color: black;
+    text-shadow: 2px 2px 3px whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.glass_descriptions{
+    padding: 0 50px;
+    display: flexbox;
+    justify-content: center;
+    margin: 0 15%;
+    width: 650px;
+    height: 525px;
+    background-image: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0));
+    backdrop-filter: blur(100px);
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.165);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.15);
+}
+.glass_send_message{
+    padding: 0 50px;
+    display: flexbox;
+    justify-content: center;
+    margin: 25px 160px;
+    width: 650px;
+    height: 250px;
+    background-image: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.21);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.2);
+}
+.glass_send_message h2{
+    color: black;
+}
